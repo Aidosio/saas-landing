@@ -24,7 +24,7 @@ const arr = [
 </script>
 
 <template>
-  <div class="flex flex-row justify-between items-center gap-20 pt-12 pb-12">
+  <div class="flex xl:flex-row flex-col justify-between items-center gap-20 pt-12 pb-12">
     <div class="flex flex-col gap-12">
       <div class="flex flex-row text-white gap-10" v-for="(item, index) in arr" :key="index">
         <img class="w-16 object-contain" :src="item.icon" alt="icon">
@@ -34,7 +34,7 @@ const arr = [
         </div>
       </div>
     </div>
-    <img class="w-3/5 object-contain" src="../assets/features.png" alt="features">
+    <img class="xl:w-3/5 w-full object-contain" src="../assets/features.png" alt="features">
   </div>
 </template>
 

@@ -11,7 +11,7 @@ import VProduct from "./components/VProduct.vue";
 
 <template>
   <div class="bg-black">
-    <div class="container mx-auto">
+    <div class="container mx-auto sm:pl-0 sm:pr-0 pl-6 pr-6">
       <VHeader />
       <VHero />
       <VCompany />

@@ -15,7 +15,7 @@ const arr = [
 </script>
 
 <template>
-  <div class="flex  flex-row border-y border-white/[.30] p-16 justify-between">
+  <div class="flex flex-row flex-wrap content-center gap-8 border-y border-white/[.30] p-16 justify-between">
     <img class="max-h-6 object-contain cursor-pointer" v-for="(item, index) in arr" :key="index" :src="item" alt="company">
   </div>
 </template>
